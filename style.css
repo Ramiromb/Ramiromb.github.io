@@ -1,0 +1,117 @@
+* {
+    transition: all 0.3s;
+  }
+
+  body {
+    background: cadetblue;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: calibri;
+    font-size: 120%;
+  }
+  .titulo{
+      width: 600px;
+      height: 40px;
+      color: #fff;
+      font-size: 40px;
+      line-height: 40px;
+      text-align:left;
+      padding-left: 10px;
+      display: flex;
+
+
+      position: absolute;
+      top: 10%;
+      right: 35%;
+      margin: auto;
+
+      overflow: hidden;
+    }
+    ul{
+        list-style: none;
+        padding-left: 10px;
+        animation: cambiar 7s infinite;
+    }
+    ul, p{
+        margin: 0%;
+    }
+    @keyframes cambiar{
+        0% {margin-top: 0%;}
+        20% {margin-top: 0%;}
+
+        25%{margin-top: -40px;}
+        50%{margin-top: -40px;}
+
+        55%{margin-top: -80px;}
+        80%{margin-top: -80px;}
+
+        85%{margin-top: -40px;}
+        95%{margin-top: -40px;}
+
+        100%{margin-top: 0px;}
+
+
+
+    }
+    
+
+
+  .contenedor {
+    width: 98vw;
+    height: 97vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .encabezado {
+    position: relative;
+    background: white;
+    min-width: 300px;
+    width: 70%;
+    max-width: 600px;
+    padding: 10px;
+  }
+
+  .categoria {
+    opacity: 0.3;
+    text-align: left;
+  }
+
+  .pregunta {
+    padding: 10px;
+  }
+
+  .imagen {
+    object-fit: cover;
+    height: 0px;
+    width: 0px;
+  }
+
+  .btn {
+    background: white;
+    width: 60%;
+    max-width: 550px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .numero{
+    position: absolute;
+    opacity:0.3;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .puntaje{
+    padding:10px;
+    color:white;
+    top: 50px
+  }
